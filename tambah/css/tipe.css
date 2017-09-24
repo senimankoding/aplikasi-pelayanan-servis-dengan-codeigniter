@@ -1,0 +1,89 @@
+.navbar-default{
+	margin-bottom: 0;
+	border: none;
+	
+	
+}
+
+
+@media (max-width: 768px){
+	.navbar-default .navbar-nav>li>a {
+		width: 100%;
+		border-bottom: 1px solid #3d3d3d;
+		text-align: center;
+	}
+}
+
+
+.transparant {
+	height: 600px;
+	text-align: center;
+	margin-top: -20px;
+	background: url(../img/gambar1.jpg);
+	background-attachment: fixed;
+	/*border: none;*/
+	padding-top: 120px;
+}
+
+
+
+.gambar{
+	border: 10px solid #1c66fc;
+	-webkit-box-shadow: 0px 22px 35px 8px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 22px 35px 8px rgba(0,0,0,0.75);
+box-shadow: 0px 22px 35px 8px rgba(0,0,0,0.75);
+}
+
+.clear{
+	clear:both;
+	float:none;
+}
+
+.tulisan{
+	text-align:justify;
+	vertical-align:top;
+	padding-left:10px;
+}
+
+.footer{
+	
+	background: #222222;	
+}
+
+.footer a:hover{
+	
+	color: #ffffff;
+}
+
+.dasar{
+	background: #000000;
+}
+.dasar a:hover{
+	
+	color: #ffffff;
+}
+
+.peta {
+        position: relative;
+        padding-bottom: 29%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .peta iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+.barangservis{
+	height: 800px;
+	background: #444549;
+}
+
+.kompalin{
+	height: 500px;
+	background: #444549;
+}
+
